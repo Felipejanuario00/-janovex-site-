@@ -1,13 +1,13 @@
 const menuBtn = document.getElementById("menuBtn");
-const navMenu = document.getElementById("navMenu");
+const menu = document.getElementById("menu");
 
 menuBtn.addEventListener("click", () => {
-  navMenu.classList.toggle("open");
+  menu.classList.toggle("open");
 });
 
-document.querySelectorAll("#navMenu a").forEach(link => {
+document.querySelectorAll("#menu a").forEach(link => {
   link.addEventListener("click", () => {
-    navMenu.classList.remove("open");
+    menu.classList.remove("open");
   });
 });
 

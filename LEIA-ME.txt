@@ -1,23 +1,41 @@
-JANUARIO TECH — SITE INSTITUCIONAL
+JANOVEX — SITE ATUALIZADO
 
 Arquivos:
-- index.html -> estrutura e textos
-- style.css -> aparência
-- script.js -> menu mobile e ano automático
+- index.html
+- estilo.css
+- script.js
+- LEIA-ME.txt
 
-COMO ABRIR:
-1. Extraia a pasta, se estiver compactada.
-2. Dê dois cliques em index.html.
-3. O site abrirá no navegador.
+COMO SUBSTITUIR O SITE ANTIGO
 
-IMPORTANTE:
-No arquivo index.html procure por:
+1. Abra esta pasta no seu computador:
+C:\Users\felip\Downloads\janovex-site\januario_tech_site
+
+2. Substitua os arquivos antigos por:
+- index.html
+- estilo.css
+- script.js
+
+3. Depois abra o PowerShell nessa pasta e execute:
+
+git add .
+git commit -m "Atualizar site da JANOVEX"
+git push
+
+4. Aguarde 1 a 3 minutos e atualize o GitHub Pages.
+
+WHATSAPP
+No index.html procure por:
 5500000000000
 
-Troque pelos números do seu WhatsApp no formato:
+Troque pelo seu número no formato:
 55 + DDD + número
 
 Exemplo:
 5531999999999
 
-O nome "Januario Tech" é provisório e pode ser alterado.
+PALETA
+- Fundo: preto / azul muito escuro
+- Texto: branco / prata
+- Destaques: azul elétrico / ciano
+- Sem roxo
