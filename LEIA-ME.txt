@@ -1,0 +1,23 @@
+JANUARIO TECH — SITE INSTITUCIONAL
+
+Arquivos:
+- index.html -> estrutura e textos
+- style.css -> aparência
+- script.js -> menu mobile e ano automático
+
+COMO ABRIR:
+1. Extraia a pasta, se estiver compactada.
+2. Dê dois cliques em index.html.
+3. O site abrirá no navegador.
+
+IMPORTANTE:
+No arquivo index.html procure por:
+5500000000000
+
+Troque pelos números do seu WhatsApp no formato:
+55 + DDD + número
+
+Exemplo:
+5531999999999
+
+O nome "Januario Tech" é provisório e pode ser alterado.
