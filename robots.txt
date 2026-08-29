@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://janovex.com.br/sitemap.xml

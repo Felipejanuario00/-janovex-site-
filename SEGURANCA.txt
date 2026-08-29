@@ -1,0 +1,30 @@
+SEGURANÇA DO SITE JANOVEX
+=========================
+
+Este pacote inclui duas configurações de proteção para hospedagem:
+- _headers: usado por serviços como Netlify e Cloudflare Pages.
+- .htaccess: usado por hospedagens com servidor Apache.
+
+Envie esses arquivos junto com os demais. A hospedagem utilizará somente o
+formato compatível com ela.
+
+PROTEÇÕES INCLUÍDAS
+- Bloqueio de scripts e conexões não autorizadas.
+- Proteção contra incorporação do site em páginas de terceiros.
+- Bloqueio de acesso a listagens de arquivos no servidor Apache.
+- Restrição de câmera, microfone, localização, pagamento e USB.
+- Política segura de compartilhamento de endereços de origem.
+- Exigência de HTTPS quando a hospedagem suporta os cabeçalhos fornecidos.
+
+PROTEÇÃO DAS CONTAS
+1. Use senha exclusiva no Registro.br e na hospedagem.
+2. Ative autenticação em duas etapas nas duas contas.
+3. Nunca envie senhas, códigos ou arquivos de acesso por mensagem.
+4. Mantenha uma cópia do ZIP original em local seguro.
+5. Publique o site somente em hospedagem com HTTPS ativo.
+6. Não adicione scripts, anúncios ou plugins de origem desconhecida.
+
+IMPORTANTE
+Nenhum arquivo consegue proteger uma conta cuja senha foi roubada. A segurança
+do domínio e da hospedagem depende principalmente da senha e da autenticação em
+duas etapas do proprietário.

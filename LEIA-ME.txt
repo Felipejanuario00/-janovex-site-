@@ -1,41 +1,47 @@
-JANOVEX — SITE ATUALIZADO
+JANOVEX — SITE INSTITUCIONAL
+============================
 
-Arquivos:
-- index.html
-- estilo.css
-- script.js
-- LEIA-ME.txt
+COMO ABRIR
+1. Extraia o arquivo ZIP para uma pasta.
+2. Abra a pasta extraída.
+3. Dê dois cliques em "index.html".
+4. O site será aberto no navegador. Não é necessário instalar nada.
 
-COMO SUBSTITUIR O SITE ANTIGO
+ARQUIVOS
+- index.html: textos, seções e links do site.
+- style.css: cores, tipografia, layout e versão para celular.
+- script.js: menu do celular, animações e ano automático.
+- favicon.svg: ícone JX exibido na aba do navegador.
+- politica-de-privacidade.html e termos-de-uso.html: documentos legais do site.
+- robots.txt e sitemap.xml: arquivos de indexação para o Google.
+- legal.css: aparência das páginas legais.
+- _headers e .htaccess: configurações de segurança para a hospedagem.
+- SEGURANCA.txt: recomendações para proteger domínio e hospedagem.
+- LEIA-ME.txt: este guia.
 
-1. Abra esta pasta no seu computador:
-C:\Users\felip\Downloads\janovex-site\januario_tech_site
+COMO TROCAR O NÚMERO DO WHATSAPP
+1. Abra o arquivo "index.html" com o Bloco de Notas ou outro editor de texto.
+2. Procure por: 5531993611353
+3. Substitua TODAS as ocorrências pelo seu número com código do país e DDD,
+   usando somente números, sem espaços, parênteses, sinal de + ou traços.
 
-2. Substitua os arquivos antigos por:
-- index.html
-- estilo.css
-- script.js
+Exemplo para um número de Minas Gerais:
+Brasil (+55) + DDD (31) + número (99999-8888)
+Resultado no arquivo: 5531999998888
 
-3. Depois abra o PowerShell nessa pasta e execute:
+Existem dois links com o número: o botão da seção de contato e o botão
+fixo no canto da tela. Troque as duas ocorrências para manter ambos funcionando.
 
-git add .
-git commit -m "Atualizar site da JANOVEX"
-git push
+COMO ALTERAR TEXTOS
+Abra "index.html", localize o texto desejado, faça a alteração e salve.
+Depois, atualize a página no navegador para conferir.
 
-4. Aguarde 1 a 3 minutos e atualize o GitHub Pages.
+PUBLICAÇÃO
+Você pode publicar a pasta em serviços de hospedagem estática ou enviá-la ao
+profissional responsável pelo domínio/hospedagem. Todos os arquivos devem
+permanecer juntos na mesma pasta.
 
-WHATSAPP
-No index.html procure por:
-5500000000000
-
-Troque pelo seu número no formato:
-55 + DDD + número
-
-Exemplo:
-5531999999999
-
-PALETA
-- Fundo: preto / azul muito escuro
-- Texto: branco / prata
-- Destaques: azul elétrico / ciano
-- Sem roxo
+OBSERVAÇÃO SOBRE FONTES
+O site usa fontes do Google para o acabamento visual. Com internet, elas são
+carregadas automaticamente. Sem internet, o conteúdo continua funcionando com
+uma fonte alternativa do computador.
