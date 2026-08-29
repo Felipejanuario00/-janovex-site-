@@ -6,6 +6,10 @@ Site institucional da **JANOVEX**, empresa de tecnologia focada em desenvolvimen
 
 https://janovex.com.br/
 
+## 🖥️ Preview
+
+![Site oficial da JANOVEX](janovex-preview.png) 
+
 ## 🚀 Soluções
 
 - Sistemas sob medida
