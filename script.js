@@ -33,6 +33,7 @@ briefForm.addEventListener('submit', event => {
   event.preventDefault();
   const data = new FormData(briefForm);
   const message = `Olá, JANOVEX! Gostaria de conversar sobre um projeto.\n\n*Nome:* ${data.get('nome')}\n*Empresa/segmento:* ${data.get('empresa') || 'Não informado'}\n*Serviço:* ${data.get('servico')}\n*Investimento estimado:* ${data.get('orcamento')}\n*Desafio:* ${data.get('mensagem')}`;
+  reportWhatsAppConversion();
   window.open(`https://wa.me/5531993611353?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
 });
 
@@ -44,6 +45,8 @@ privacyDialog.addEventListener('click', event => {
 });
 
 const analyticsId = 'G-9MSZLEXP3T';
+const googleAdsId = 'AW-18416150783';
+const whatsappConversionId = 'AW-18416150783/jCIvCPbO6OkcEP_RwM1E';
 const cookieBanner = document.getElementById('cookie-banner');
 
 function startAnalytics() {
@@ -52,11 +55,21 @@ function startAnalytics() {
   window.gtag = function () { window.dataLayer.push(arguments); };
   window.gtag('js', new Date());
   window.gtag('config', analyticsId, { anonymize_ip: true });
+  window.gtag('config', googleAdsId);
   const tag = document.createElement('script');
   tag.async = true;
   tag.src = `https://www.googletagmanager.com/gtag/js?id=${analyticsId}`;
   document.head.appendChild(tag);
 }
+
+function reportWhatsAppConversion() {
+  if (localStorage.getItem('janovex_measurement') !== 'accepted' || typeof window.gtag !== 'function') return;
+  window.gtag('event', 'conversion', { send_to: whatsappConversionId });
+}
+
+document.querySelectorAll('.whatsapp-link').forEach(link => {
+  link.addEventListener('click', reportWhatsAppConversion);
+});
 
 const measurementChoice = localStorage.getItem('janovex_measurement');
 if (measurementChoice === 'accepted') startAnalytics();
